@@ -24,8 +24,10 @@ h3 {
   margin-bottom: 8px;
 }
 
-.val {
+input {
   border: 2px solid #b295ff;
+  background-color: #6943ff;
+  color: #ffffff;
   height: 83px;
   width: 117px;
   display: flex;
@@ -34,19 +36,18 @@ h3 {
   border-radius: 7px;
   font-size: 58px;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 
 button {
-  height: 58px;
+  height: 40px;
   width: 117px;
   border-radius: 10px;
   font-size: 16px;
   border: none;
-  margin-bottom: 34px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 button:hover {
