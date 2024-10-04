@@ -6,7 +6,8 @@
 
 //create converter for lenth (Meter/feet) volume(liters/gallons) mass(kilo/lbs)-- follow spec -- when user clicks convert  data populate --round down to 2 dec places
 const convertButton = document.getElementById("con-btn");
+const inputNumber = document.getElementById("input-num")
 
 convertButton.addEventListener("click", function(){
-  console.log("clicked")
+  console.log(inputNumber.value)
 })
