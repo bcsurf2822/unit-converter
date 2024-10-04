@@ -18,7 +18,20 @@ body {
   margin-bottom: 36px;
 }
 
-h1 {
+h3 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.val {
+  border: 2px solid #b295ff;
+  height: 83px;
+  width: 117px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
   font-size: 58px;
   font-weight: 800;
 }
@@ -38,22 +51,6 @@ button {
 
 button:hover {
   transform: scale(1.02);
-}
-
-h3 {
-  font-size: 28px;
-  font-weight: 900;
-  margin-bottom: 8px;
-}
-
-.val {
-  border: 2px solid #b295ff;
-  height: 83px;
-  width: 117px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 7px;
 }
 
 .conversions {
